@@ -290,9 +290,9 @@ section .button button {
 }
 
 section .button button:hover {
-  border-color: #4070f4;
+  border-color: #79bd9a;
   background-color: #fff;
-  color: #4070f4;
+  color: #79bd9a;
 }
 /* gallery section */
 
@@ -642,7 +642,8 @@ footer .text span a:hover {
 
 .container .btn{
   margin: 40px 0 70px 0;
-  background: #1e2022 ;
+  background: #79bd9a ;
+  font-family: 'Ubuntu';
   padding: 15px 40px;
   border-radius: 5px;
   
