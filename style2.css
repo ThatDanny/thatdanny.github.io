@@ -198,6 +198,8 @@ body{
   color: #79bd9a;
   transform: translate(0, -50%);
   font-family: system-ui;
+  font-weight: bold;
+  font-size: 20px;
   display: none;
 }
 
@@ -212,14 +214,14 @@ body{
   text-transform: uppercase;
   font-weight: bold;
   opacity: 0;
-  animation: animate 1s ease-in-out 1 forwards;
+  animation: animate 0.5s ease-in-out 1 forwards;
 }
 
 .content .des{
   margin-top: 10px;
   margin-bottom: 20px;
   opacity: 0;
-  animation: animate 1s ease-in-out 0.3s 1 forwards;
+  animation: animate 0.7s ease-in-out 0.3s 1 forwards;
 }
 
 .content button{
