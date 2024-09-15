@@ -19,7 +19,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #6e93f7;
+  background: #0E2431;
   border-radius: 12px;
   transition: all 0.3s ease;
 }
@@ -46,6 +46,7 @@ nav.sticky {
 nav .navbar {
   width: 90%;
   display: flex;
+  
   justify-content: space-between;
   align-items: center;
   margin: auto;
@@ -72,7 +73,7 @@ nav .navbar .menu li {
 }
 
 .navbar .menu a {
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 500;
   color: #79bd9a;
   padding: 6px 0;
@@ -80,7 +81,7 @@ nav .navbar .menu li {
 }
 
 .navbar .menu a:hover {
-  color: #4070f4;
+  color: #0E2431;
 }
 
 nav.sticky .menu a {
