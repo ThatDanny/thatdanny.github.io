@@ -648,7 +648,11 @@ footer .text span a:hover {
   border-radius: 5px;
   
 }
-
+.container .btn button:hover {
+  border-color: #79bd9a;
+  color: #fff;
+  color: #79bd9a;
+}
 .container .btn a{
   color: white;
   text-decoration: none;
