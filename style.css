@@ -19,14 +19,14 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #6e93f7;
+  background: #79bd9a;
   border-radius: 12px;
   transition: all 0.3s ease;
   
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #4070f4;
+  background: #0E2431;
 }
 
 /* navbar styling */
@@ -93,7 +93,7 @@ nav.sticky .menu a:hover {
 }
 
 .navbar .media-icons a {
-  color: #4070f4;
+  color: #79bd9a;
   font-size: 18px;
   margin: 0 6px;
 }
@@ -160,7 +160,8 @@ nav.sticky .menu-btn {
 }
 
 .home .text-three {
-  font-size: 40px;
+  font-size: 50px;
+  font-weight: bold;
   margin: 5px 0;
   color: #4070f4;
 }
@@ -459,7 +460,7 @@ footer .text span a:hover {
   bottom: 20px;
   right: 20px;
   color: #fff;
-  background: #4070f4;
+  background: #79bd9a;
   padding: 7px 12px;
   ;
   font-size: 18px;
@@ -536,7 +537,7 @@ footer .text span a:hover {
   }
 
   nav.sticky .menu a:hover {
-    color: #4070f4;
+    color: #79bd9a;
   }
 
   nav .navbar .media-icons {
@@ -680,17 +681,68 @@ footer .text span a:hover {
 }
 }
 /* form section */
+section h2 {
+  text-align: center;
+  font-family: 'Ubuntu';
+  color: #0E2431;
+  background: #F0F8FF;
+}
+
 form {
-  text-align: center;
-  font-family: 'Ubuntu';
-  color: #0E2431;
+  max-width: 800px;
+  font-family:'Ubuntu' ;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid #79bd9a;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   background: #F0F8FF;
 }
 
-h2 {
-  text-align: center;
-  font-family: 'Ubuntu';
-  color: #0E2431;
-  background: #F0F8FF;
+label {
+  display: flex;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #79bd9a;
 }
 
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius:   
+ 5px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease-in-out;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,   
+
+textarea:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+textarea {
+  height: 100px;
+}
+
+button[type="submit"] {
+  display: block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer; 
+  transition: background-color 0.3s ease-in-out;
+}
+
+button[type="submit"]:hover {
+  background-color: #2980b9; }
