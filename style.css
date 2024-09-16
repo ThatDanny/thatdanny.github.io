@@ -700,7 +700,8 @@ form {
 }
 
 label {
-  display: flex;
+  display: inline-block;
+  margin: 10px;
   margin-bottom: 5px;
   font-weight: bold;
   color: #79bd9a;
